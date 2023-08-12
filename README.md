@@ -6,9 +6,10 @@ Crea una API que permita realizar operaciones (Crear y Leer) sobre una entidad "
 
 La API debe exponer los siguientes endpoints:
 
-### GET /api/tasks: devuelve una lista de todas las tareas.
-### GET /api/tasks/{id}: devuelve la tarea con el identificador especificado en la URL.
-### POST /api/tasks: crea una nueva tarea con la información proporcionada en el cuerpo de la solicitud.
+```
+GET /api/tasks: devuelve una lista de todas las tareas.
+GET /api/tasks/{id}: devuelve la tarea con el identificador especificado en la URL.
+POST /api/tasks: crea una nueva tarea con la información proporcionada en el cuerpo de la solicitud.```
 
 Por favor incluir validaciones básicas en la creación de tareas, como la validación de campos requeridos y la comprobación de que la descripción no está vacía y tenga un largo máximo de 100 carcteres.
 
