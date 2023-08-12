@@ -1,0 +1,13 @@
+<span class="info">
+    <div class="description">
+        {{task.description}}
+    </div>
+    <div class="date">
+        {{task.date}}
+    </div>
+</span>
+<span class="manage">
+    <i *ngIf="!task.isCompleted" (click)="changeTaskStatus(task.id, task.isCompleted)" class='bx bx-check-square'></i>
+    <i *ngIf="task.isCompleted" (click)="changeTaskStatus(task.id, task.isCompleted)" class='bx bxs-x-square'></i>
+    <i class='bx bxs-trash' (click)="removeTask(task.id)"></i>
+</span>

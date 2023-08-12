@@ -1,0 +1,9 @@
+<h2>Gestionar tareas</h2>
+<form>
+    <span>
+        <textarea type="text" name="description" maxlength="100"
+         [(ngModel)]="description" placeholder="Descripcion"></textarea>
+        <input type="date" name="date" [value]="date" [(ngModel)]="date" />
+    </span>
+    <button (click)="addTask()"><i class="bx bx-plus"></i></button>
+</form>

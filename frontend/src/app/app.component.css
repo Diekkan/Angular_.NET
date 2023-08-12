@@ -1,0 +1,29 @@
+:host{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+span{
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    font-weight: 300;
+    margin-bottom: 0.5rem;
+    font-size: 15px;
+}
+span > .task
+{
+    margin-left: 15px;
+    width: 70%;
+}
+span > .taskend
+{
+    text-align: end;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 30%;
+    text-align: end;
+}

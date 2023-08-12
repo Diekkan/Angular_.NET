@@ -1,0 +1,4 @@
+<div *ngIf="taskList.length === 0">
+    No hay tareas cargadas!
+</div>
+<task *ngFor="let task of taskList" [task]="task" class="{{task.isCompleted ? 'done': ''}}" />

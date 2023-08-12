@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;500;700&display=swap');
+:root{
+    --main-border-color: #0ccc46;
+    --completed-task:#383838;
+    --task-color: #1f1f1f;
+}
+body{
+    background-color: #1f1f1f;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+}
+
+.done > .info{
+    color: #b8b8b8;
+}
+
+.done > .info > .description{
+    text-decoration: line-through;
+}

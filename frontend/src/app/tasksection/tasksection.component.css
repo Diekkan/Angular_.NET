@@ -1,0 +1,24 @@
+:host{
+    height: 400px;
+    width: 500px;
+    border: 2px solid var(--main-border-color);
+    background-color: var(--completed-task);
+    border-radius: 5px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+div {
+    text-align: center;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.done {
+    background-color: var(--completed-task);
+}
+
