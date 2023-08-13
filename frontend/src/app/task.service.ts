@@ -71,7 +71,6 @@ export class TaskService {
 				this.taskList.push(task);
 			else
 				this.taskList.unshift(task);
-
 		}
 
 		this.updateTaskList();
